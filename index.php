@@ -33,5 +33,5 @@ try {
   );
   include_once('views/thanks.php');
 } catch (Exception $ex) {
-  echo '<h2>Stripe API Error</h2>' . '<div>' . $ex->getMessage() . '</div>';
+  echo '<h2>Stripe API Error</h2><div>' . $ex->getMessage() . '</div>';
 }
