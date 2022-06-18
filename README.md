@@ -4,7 +4,7 @@
 
 #### 2. .envファイルを作成
 sample.config.php ファイルをもとに config.php ファイルを作成します。以下の値をセットしてください。
-```php
+```
   const GA4_MEASURING_ID  = {{GoogleAnalytics4の測定ID(G-XXXX)};
   const STRIPE_SECRET_KEY = {{StripeのAPIシークレットキー}};
 ```
