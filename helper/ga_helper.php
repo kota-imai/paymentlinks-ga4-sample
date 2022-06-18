@@ -1,17 +1,15 @@
-<?php
-require_once('vendor/autoload.php');
+<?php 
 
 function print_ga_tag()
 {
-  $google_analytics_code = $_ENV['GA4_MEASUREMENT_ID'];
   echo '
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=' . $google_analytics_code . '"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=' . Config::GA4_MEASURING_ID . '"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag("js", new Date());
-    gtag("config", "' . $google_analytics_code . '");
+    gtag("config", "' . Config::GA4_MEASURING_ID . '");
     </script>';
 }
 

@@ -7,11 +7,12 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
   <title>Thank You for your purchase</title>
   <?php print_ga_tag(); ?>
+  <script type="text/javascript" src="//webfonts.sakura.ne.jp/js/sakurav3.js"></script>
 </head>
 
-<body>
+<body style="font-family: 'Hiragino Maru Gothic W4 JIS2004'">
   <div class="jumbotron text-center">
-    <h1 class="display-3">Thank You!</h1>
+    <h1 class="display-4">Thank You!</h1>
     <p class="lead"> お客様のご注文内容は以下の通りです</p>
     <p class="lead">
     <div class="d-flex justify-content-center container mt-5">

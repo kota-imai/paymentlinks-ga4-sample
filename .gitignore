@@ -1,4 +1,4 @@
-# Dotenv
-.env
 # Composer
 /vendor
+# Configuration
+config.php
