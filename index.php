@@ -40,7 +40,7 @@ try {
     $line_items->data[0]->price->product,
     []
   );
-  include_once('views/thanks.php');
+  include_once('views/details.php');
 } catch (Exception $ex) {
   echo '<h2>Stripe API Error</h2><div>' . $ex->getMessage() . '</div>';
 }
